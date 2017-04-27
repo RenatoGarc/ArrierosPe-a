@@ -1,0 +1,215 @@
+@import url(nav.css);
+    
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    
+    background-color: #04593e;
+    padding-top: 25px;
+   
+ 
+    
+}
+
+.social-header{
+    
+    margin-top: 12px;
+   
+}
+
+.social-header a{
+    
+    color:#fff;
+}
+
+.social-header a .fa-inverse{
+    
+    color: #04593e;
+
+    
+}
+
+.uno {
+    
+    display: flex;
+    
+}
+
+.menu-bar{
+    background-color: #ffa30d;
+    margin-top: 20px;
+  
+   
+    
+}
+
+
+.menu-bar a{
+    
+    color:#2a1000;
+    font-size: 16px;
+    font-weight: 500;   
+    
+}
+
+
+
+.menu-bar a:hover{
+    
+    text-decoration: none;
+    color:#fff;
+}
+
+
+.menu-list{
+    padding: 12px 0;
+    margin-bottom: 0;
+    
+    
+}
+
+.menu-list>li:not(:last-child){
+    
+    margin-right: 40px;
+}
+
+
+
+ul {
+    
+    display: flex;
+    justify-content: flex-end;
+  
+} 
+
+
+/* Content*/
+
+#slider-home{
+    
+    margin-bottom: 50px;
+}
+
+.carousel-caption{
+    
+    background-color: rgba(4,89,62,0.60);
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 80px 30px;
+    text-align: left;
+    width: 600px;
+}
+
+
+.carousel-caption p{
+    
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.carousel-caption h2{
+    
+    font-size: 26px;
+    line-height: 30px;
+    
+}
+
+.carousel-caption .h4{
+    
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 8px;
+}
+
+.carousel-caption img{
+    
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.carousel-caption a{
+    
+    border-radius: 0;
+    font-weight: bold;
+    color: #04593e;
+    border: none;
+}
+
+img{
+    
+    max-width: 100%;
+   
+}
+
+
+/*Content;*/
+
+h3{
+    
+    font-size: 24px;
+    border-bottom: 1px solid #04593e;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+p{
+    
+    font-size: 16px;
+ 
+
+
+}
+
+
+hr{
+ border-bottom: 1px solid #04593e;
+    }
+/*Footer*/
+
+
+
+
+
+
+
+footer{
+    background: #04593e;
+    color: #ffffff;
+    height: 40px;
+}
+
+.footer {
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+
+/*helpers*/
+
+
+.margin-top-10{
+    
+    margin-top: 10px;
+}
+
+
+
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+
+
+
+
+
